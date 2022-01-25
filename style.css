@@ -52,10 +52,12 @@ body {
 .main-head {
   background: #131c27;
   color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 nav {
   display: flex;
-  /* width: 90%; */
   margin: auto;
   padding: 2rem 10rem;
   min-height: 10vh;
