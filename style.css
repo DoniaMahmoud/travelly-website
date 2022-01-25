@@ -251,6 +251,9 @@ footer ul {
   justify-content: space-between;
   align-items: center;
 }
+button:focus {
+  background: #2c3f57;
+}
 /* Media Query */
 @media screen and (max-width: 1015px) {
   html {
